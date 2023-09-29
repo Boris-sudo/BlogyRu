@@ -16,7 +16,7 @@ export class Blog1Service {
     date: "25.09.2023",
     author: "Базаров Е.В.",
     text: [
-      " ",
+      "",
       "",
       "",
     ]

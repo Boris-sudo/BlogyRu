@@ -14,6 +14,7 @@ export class Blog2Component implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    document.getElementById('main-title')!.innerText='Blog 2';
     this.blog=this.blog2.blog;
   }
 }

@@ -14,6 +14,7 @@ export class StartPageComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    document.getElementById('main-title')!.innerText='Blogy.ru';
   }
 
   go(link:string) {

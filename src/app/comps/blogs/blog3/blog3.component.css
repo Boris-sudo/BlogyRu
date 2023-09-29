@@ -1,11 +1,17 @@
 .container {
-  width: 100%;
+  width: 100vw;
+  margin: 0!important;
   padding: 4em 20px 0 20px;
 }
 h1 {
   font-size: 3em;
+  border-bottom: 1px solid #fff;
 }
 .mini-container {
+  margin-top: 30px;
+  width: 700px;
+}
+.mini-container p {
   margin-top: 20px;
-  width: 60vw;
+  user-select: none;
 }
