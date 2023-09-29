@@ -1,5 +1,6 @@
 .container {
   width: 100vw;
+  height: 100vh;
   margin: 0!important;
   padding: 4em 20px 0 20px;
 }
@@ -8,10 +9,28 @@ h1 {
   border-bottom: 1px solid #fff;
 }
 .mini-container {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 0;
   margin-top: 30px;
   width: 700px;
 }
 .mini-container p {
   margin-top: 20px;
   user-select: none;
+}
+.right-mini-conatainer img {
+  display: block;
+  --width: min(100%, 300px);
+  width: var(--width);
+  margin-left: max(0,min(100px, calc(100% - var(--width))));
+}
+.right-mini-conatainer img:not(:first-of-type) {
+  margin-top: 20px;
+}
+.right-mini-conatainer {
+  padding: 40px 10px;
+  width: calc(100vw - 740px);
+  box-sizing: border-box;
+  display: inline-block;
 }
