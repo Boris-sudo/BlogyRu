@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  padding: 4em 20px 0 20px;
+}
+h1 {
+  font-size: 3em;
+}
+.mini-container {
+  margin-top: 20px;
+  width: 60vw;
+}

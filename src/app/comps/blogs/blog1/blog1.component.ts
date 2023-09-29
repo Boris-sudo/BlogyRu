@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Blog1Service} from "../../../blogs/blog1.service";
 
 @Component({
   selector: 'app-blog1',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog1.component.css']
 })
 export class Blog1Component implements OnInit {
+  public blog:any;
 
-  constructor() { }
+  constructor(
+    private blog2: Blog1Service,
+  ) { }
 
   ngOnInit(): void {
+    this.blog=this.blog2.blog;
   }
-
 }

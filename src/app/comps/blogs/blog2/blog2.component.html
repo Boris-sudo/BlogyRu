@@ -1,1 +1,8 @@
-<p>blog2 works!</p>
+<div class="container">
+  <h1>{{blog.header}}</h1>
+  <hr>
+  <div class="mini-container">
+    <p *ngFor="let line of blog.text" style="margin-top: 20px;">{{line}}</p>
+    <p style="float: right; text-align: end; margin-top: 20px;">{{blog.date}}<br>{{blog.author}}</p>
+  </div>
+</div>

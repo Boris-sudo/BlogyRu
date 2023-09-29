@@ -1,0 +1,15 @@
+.top-bar-container {
+  height: var(--top-bar-height);
+  background: #1d2a49;
+  z-index: 300;
+}
+.tb-table {
+  float: right;
+  margin-right: 70px;
+}
+.tb-table li {
+  font-size: 1.5em;
+}
+.tb-table li:not(:first-of-type) {
+  margin-left: 40px;
+}
